@@ -10,7 +10,7 @@ The Library Application is a comprehensive Java Spring Boot project designed to 
 - **Search and Filtering:** Seamlessly search and filter books based on various criteria, enabling quick and efficient access to information.
 - **Data Validation:** Built-in validation ensures data integrity, reducing the risk of errors in the library database.
 - **User-Friendly Interface:** An intuitive and user-friendly interface makes the application accessible to both library staff and patrons.
-- **Customization:** Adapt the application to suit specific library needs, with configurable settings and options.
+- **Fine Management:** Track and manage fines for overdue books, ensuring accurate and transparent fine calculation.
 
 ### Why Use the Library Application?
 
@@ -48,9 +48,9 @@ Whether you are managing a small community library or a large institutional reso
 
 Before you begin, ensure you have the following installed:
 
-- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) 1.8
+- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) version 1.8
 - [MySQL Database](https://www.mysql.com/) version 5.7.40
-- [Spring Boot Starter Parent](https://spring.io/projects/spring-boot) 2.7.17
+- [Spring Boot Starter Parent](https://spring.io/projects/spring-boot) version 2.7.17
 
 
 ## Installation
@@ -60,7 +60,28 @@ Before you begin, ensure you have the following installed:
    git clone  https://github.com/Mohammad-Bilal-16/LibraryApplication.git
    
 ## Rest api's Images (Postman , CMD)
-- Book POST API Call
-![Book POST API Call](images/PostingBook.png)
-- Book POST on CMD
+
+#### Book POST API Call Postman
+
+![Book POST API Call Postman](images/PostingBook.png)
+
+#### Book POST on CMD
 ![Book POST on CMD](images/PostingBookCmd.png)
+
+#### Student POST API Call Postman
+![Student POST API Call Postman](images/PostingStudent.png)
+
+#### Student POST on CMD
+![Student POST on CMD](images/PostingStudentCmd.png)
+
+#### Student POST **issue** API Call Postman
+![Student POST **issue** API Call Postman](images/IssueingBookByStudent.png)
+
+#### Student POST **issue** API Call CMD
+![Student POST **issue** API Call CMD](images/IssueingBookByStudentCmd.png)
+
+#### Student POST **return** API Call Postman
+  ![Student POST **return** API Call Postman](images/ReturningBookLibrary.png)
+
+#### Student POST **return** API Call CMD
+  ![Student POST **return** API Call CMD](images/ReturningBookLibraryCmd.png)
