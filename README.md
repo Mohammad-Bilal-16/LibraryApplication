@@ -22,7 +22,6 @@ The Library Application is a comprehensive Java Spring Boot project designed to 
 Whether you are managing a small community library or a large institutional resource center, the Library Application provides a flexible and scalable solution to meet your library management needs.
 
 ## Technologies
-
 - [Java](https://www.java.com/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
@@ -31,23 +30,7 @@ Whether you are managing a small community library or a large institutional reso
 - [Spring Starter Web](https://spring.io/guides/gs/spring-boot/)
 - [Lombok](https://projectlombok.org/)
 
-
-
-## Introduction
-
-The Library Application is a Java Spring Boot project designed to manage and organize a library's book inventory. It utilizes Spring Data JPA for data persistence, MySQL as the database, and incorporates features such as validation and Lombok for streamlined development.
-
-## Technologies
-
-- Java
-- Spring Boot
-- Spring Data JPA
-- MySQL
-- Validation
-- Lombok
-
 ## Features
-
 - **CRUD Operations:**
    - Manage books and student records with Create, Read, Update, and Delete (CRUD) operations.
 
@@ -75,3 +58,9 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone  https://github.com/Mohammad-Bilal-16/LibraryApplication.git
+   
+## Rest api's Images (Postman , CMD)
+- Book POST API Call
+![Book POST API Call](images/PostingBook.png)
+- Book POST on CMD
+![Book POST on CMD](images/PostingBookCmd.png)
