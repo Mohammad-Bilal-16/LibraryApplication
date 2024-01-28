@@ -49,9 +49,9 @@ Whether you are managing a small community library or a large institutional reso
 Before you begin, ensure you have the following installed:
 
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) version 1.8
+- [Maven Build](https://maven.apache.org/download.cgi) version 3.6.0
 - [MySQL Database](https://www.mysql.com/) version 5.7.40
 - [Spring Boot Starter Parent](https://spring.io/projects/spring-boot) version 2.7.17
-
 
 ## Installation
 
